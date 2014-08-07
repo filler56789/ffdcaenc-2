@@ -385,7 +385,11 @@ The following people helped me to test the encoder (including the versions that
 did not work):
 
  Arun Raghavan
+
  Colin Guthrie
+
  Mikhail Elovskikh
+
  cryptonymous from the linux.org.ru forum
+
  rulet from the linux.org.ru forum
