@@ -1,0 +1,29 @@
+dcaenc-1: 2011-09-17 http://aepatrakov.narod.ru/index/0-2
+* Initial release.
+
+dcaenc-2: 2012-01-28 http://aepatrakov.narod.ru/index/0-2
+* Minor cleanups
+* Support for 5.0 channel encoding
+* Fixed infinite loop on too-high bitrates
+* Fixed buffer overflow on attempts to encode a 7.1 file
+
+mulder2@gmx.de Windows port 2013-4-22	https://gitorious.org/~mulder/dtsenc/mulders-dtsenc
+
+ffdcaenc-2.1: 2013-05-22 
+* In command line tool; added support for 24 bit input files
+* Changed PCM Source Resolution from 16 to 24 bits in DTS header
+* In command line tool; added -r flag for reduced bit depth of output for DTS CDs
+* In command line tool; added -m flag and support for 6 mono files input
+* Changed Frame Size Calculation to allow for identical frame sizes as in commercial encoders
+  Specifically -b 1509.75 now gives frame size acceptable to AudioMuxer and Muxman for DVD creation
+
+ffdcaenc-2.1.1: 2013-05-31
+* Bugfix for multi-mono (-m)
+* In command line tool, allow for 5.0 in multi mono (5 inputs and no LFE)
+	
+ffdcaenc-2.1.2: 2013-06-03
+* Generalize multi-mono to be as flexible as multi channel input
+
+ffdcaenc-2.1.3: 2013-06-05
+* Formalize ffdcaenc as a fork (documentation and command line target name)
+* Further generalize multi-mono to be as flexible as multi channel input
