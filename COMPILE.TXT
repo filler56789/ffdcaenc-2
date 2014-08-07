@@ -1,0 +1,6 @@
+autoreconf -f -i -v
+
+./configure --disable-alsa --disable-shared --enable-static
+
+make
+
