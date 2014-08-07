@@ -1,0 +1,26 @@
+[1.1]
+sox -M FC.wav LFE.wav -t wavpcm -|ffdcaenc -i - -o zzzzFCp1.dts -b 256 -c 1 -f
+
+[2/1]
+sox -M FR.wav BC.wav FL.wav -t wavpcm -|ffdcaenc -i - -o 2f1r0p.dts -b 672 -c 7
+
+[2/0 + LFE]
+sox -M FR.wav LFE.wav FL.wav -t wavpcm -|ffdcaenc -i - -o 2f0r1p.dts -b 576 -c 3 -f
+
+[2/1 + LFE]
+sox -M FL.wav FR.wav BC.wav LFE.wav -t wavpcm -|ffdcaenc -i - -o 2f1r1p.dts -b 840 -c 7 -f
+
+[3/0]
+sox -M FL.wav FR.wav FC.wav -t wavpcm -|ffdcaenc -i - -o 3f0r0p.dts -b 768 -c 6
+
+[3/0 + LFE]
+sox -M FC.wav FL.wav FR.wav LFE.wav -t wavpcm -|ffdcaenc -i - -o 3f1p.dts -b 882 -c 6 -f
+
+[3/1]
+sox -M FC.wav FL.wav FR.wav BC.wav -t wavpcm -|ffdcaenc -i - -o 3f1r0p.dts -b 960 -c 8
+
+[3/1 + LFE]
+sox -M FL.wav FR.wav FC.wav BC.wav LFE.wav -t wavpcm -|ffdcaenc -i - -o 3f1r1p.dts -b 1024 -c 8 -f
+
+[4/0 + LFE]
+sox -M FR.wav BL.wav FL.wav BR.wav LFE.wav -t wavpcm -|ffdcaenc -i - -o qf0r1p.dts -b 1152 -c 9 -f
