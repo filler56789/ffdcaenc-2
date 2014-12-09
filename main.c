@@ -634,24 +634,23 @@ static int32_t dcaenc_main(int32_t argc, char *argv[])
 	return 0;
 }
 
+// courtesy of <Kurtnoise>
+
 #if defined(_WIN32) || defined(_WIN64)
 
 #include <Windows.h>
 #include <io.h>
 #include <fcntl.h>
-
-int32_t main( int32_t argc, char **argv )
-{
-	_setmode(_fileno(stdin),  _O_BINARY);
-	_setmode(_fileno(stdout), _O_BINARY);
-	return dcaenc_main(argc, argv);
-}
-
-#else
-
-int32_t main( int32_t argc, char **argv )
-{
-	return dcaenc_main(argc, argv);
-}
-
 #endif
+
+int32_t main( int32_t argc, char **argv )
+{
+   #if defined(_WIN32) || defined(_WIN64)
+      _setmode(_fileno(stdin),  _O_BINARY);
+      _setmode(_fileno(stdout), _O_BINARY);
+   #endif		
+
+return dcaenc_main(argc, argv);
+}
+
+// </Kurtnoise>
