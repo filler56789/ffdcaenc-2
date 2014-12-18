@@ -195,7 +195,9 @@ static int32_t dcaenc_main(int32_t argc, char *argv[])
 			printf("This program is free software: you can redistribute it and/or modify it\n");
 			printf("under the terms of the GNU Lesser General Public License.\n");
 			printf("Note that this program is distributed with ABSOLUTELY NO WARRANTY.\n\n");
-			printf("Portions changed by Alexei Andropov for ffdcaenc.\n\n");
+			printf("Portions changed by Alexei Andropov for ffdcaenc.\n");
+			printf("Linux-compatibility restored by filler56789.\n");
+			printf("Windows stdin support fixed by Kurtnoise.\n\n");
 			return 0;
 		}
 		else if(show_help)
