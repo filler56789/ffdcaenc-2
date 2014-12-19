@@ -190,7 +190,8 @@ static int32_t dcaenc_main(int32_t argc, char *argv[])
 			printf(PACKAGE_NAME "-" PACKAGE_VERSION "\n");
 			printf("compiled on " __DATE__ " at " __TIME__ " using " __COMPILER__ ";\n\n");
 			printf(PACKAGE_URL "\n");
-			printf("http://gitorious.org/~mulder/dtsenc/mulders-dtsenc \n\n");
+			printf("http://gitorious.org/~mulder/dtsenc/mulders-dtsenc \n");
+			printf("https://github.com/filler56789/ffdcaenc-2 \n\n");
 			printf("Copyright (c) 2008-2012 Alexander E. Patrakov <patrakov@gmail.com>\n");
 			printf("This program is free software: you can redistribute it and/or modify it\n");
 			printf("under the terms of the GNU Lesser General Public License.\n");
