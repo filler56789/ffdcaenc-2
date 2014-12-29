@@ -3,14 +3,14 @@
 
 
 2) DCAENC: Usability improvements added by LoRd_MuldeR
-{{ http://muldersoft.com/ ++ http://forum.doom9.org/showthread.php?t=163526 }}
+{{ http://forum.doom9.org/showthread.php?t=163526 }}
 
 
 3) FFDCAENC: Additional functionality added by Alexei Andropov
 
 
 4) FFDCAENC: *NIX-compatibility restored by filler56789
-{{ https://github.com/filler56789 }}
+{{ http://forum.doom9.org/showthread.php?t=170952 }}
 
 
 5) FFDCAENC: Windows stdin support fixed by Kurtnoise
