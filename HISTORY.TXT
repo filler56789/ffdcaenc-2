@@ -3,7 +3,7 @@
 
 
 2) DCAENC: Usability improvements added by LoRd_MuldeR
-{{ http://muldersoft.com/ }}
+{{ http://muldersoft.com/ ++ http://forum.doom9.org/showthread.php?t=163526 }}
 
 
 3) FFDCAENC: Additional functionality added by Alexei Andropov
