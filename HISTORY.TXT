@@ -1,0 +1,17 @@
+1) DCAENC: Original source-code written by Alexander Patrakov
+{{ http://aepatrakov.narod.ru/ }}
+
+
+2) DCAENC: Usability improvements added by LoRd_MuldeR
+{{ http://muldersoft.com/ }}
+
+
+3) FFDCAENC: Additional functionality added by Alexei Andropov
+
+
+4) FFDCAENC: *NIX-compatibility restored by filler56789
+{{ https://github.com/filler56789 }}
+
+
+5) FFDCAENC: Windows stdin support fixed by Kurtnoise
+{{ kurtnoise ÄTT free D0TT fr }}
