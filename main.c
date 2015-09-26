@@ -242,7 +242,7 @@ static int32_t dcaenc_main(int32_t argc, char *argv[])
 			printf("0.75      kbps for     12 kHz\n");
 			printf("0.6890625 kbps for 11.025 kHz\n");
 			printf("0.5       kbps for      8 kHz\n\n");
-			printf("-- NOTICE: the values 754.5 and 1509.75 AT _48kHz_ are an exception.\n\n");
+			printf("-- NOTICE: the values 377.25, 503.25, 754.5 and 1509.75 AT _48kHz_ are exceptions.\n\n");
 			printf("* Available channel-layouts:\n\n");
 			printf("  -  1: A\n");
 			printf("  -  2: A, B\n");
